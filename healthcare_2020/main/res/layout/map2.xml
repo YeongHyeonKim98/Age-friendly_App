@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/fragment_container" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btn12" android:text="병원을 검색 중입니다.\n 30초 뒤 버튼을 눌러주세요."/>
+
+
+</LinearLayout>
+
+    <fragment android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/map" android:name="com.naver.maps.map.MapFragment"/>
+
+</LinearLayout>
