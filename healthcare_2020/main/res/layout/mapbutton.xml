@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapButton">
+    <ScrollView
+        android:id="@+id/ScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="411dp"
+                android:layout_height="92dp"
+                android:text="원하시는 위치를 \n 선택하세요."
+                android:textSize="35sp"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/map1_move"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:gravity="center"
+                android:text="약국"
+                android:textSize="35sp" />
+            <Button
+                android:id="@+id/map2_move"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:text="병원"
+                android:textSize="35sp"/>
+            <Button
+                android:id="@+id/map3_move"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:text="노인복지시설"
+                android:textSize="35sp"/>
+            <Button
+                android:id="@+id/map4_move"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:text="길찾기"
+                android:textSize="35sp"/>
+
+            <Button
+                android:id="@+id/map5_move"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginVertical="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="초기화면으로 이동"
+                android:textSize="30sp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
