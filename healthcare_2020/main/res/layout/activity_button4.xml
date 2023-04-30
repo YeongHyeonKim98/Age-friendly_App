@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".button4">
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:gravity="center"
+                android:text="당뇨병 진단 테스트"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="최근 소변을 보는 횟수가 늘어났다."
+                android:layout_marginVertical="30dp"
+                android:textSize="25dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="부모나 형제자매 중에 당뇨병 환자가 있다."
+                android:textSize="22dp"
+
+                />
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="평소 식사습관이 불규칙하고 폭식을 하는 편이다."
+                android:layout_marginVertical="30dp"
+                android:textSize="22dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="발가락이나 손가락에 저린 느낌이 자주생기고 감각이 둔해진 것 같다."
+                android:textSize="22dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="특별히 눈은 혹사하지 않는데도 자주 아프다."
+                android:layout_marginVertical="30dp"
+                android:textSize="22dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="일상생활에 의욕이 없고 쉽게 피로를 느낀다."
+                android:textSize="22dp"
+                />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="160dp"
+                android:layout_height="62dp"
+                android:layout_marginVertical="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="완료 및 결과 확인"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

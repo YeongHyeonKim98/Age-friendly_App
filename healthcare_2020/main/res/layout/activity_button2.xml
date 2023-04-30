@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".button2">
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:gravity="center"
+                android:text="고혈압 진단 테스트"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="평소 음식을 짜게 먹는 편이다."
+                android:layout_marginVertical="30dp"
+                android:textSize="25dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="술을 1주일에 3회 이상 마신다."
+                android:textSize="25dp"
+
+                />
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="뒷목이 자꾸 뻣뻣하고 특히 아침에 심하다."
+                android:layout_marginVertical="30dp"
+                android:textSize="25dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="가끔 가슴이 울렁거리고 맥박이 고르지 않게 띈다."
+                android:textSize="22dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="부모나 형제자매 중에 고혈압 환자가 있다."
+                android:layout_marginVertical="30dp"
+                android:textSize="22dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="현재 당뇨병을 앓고 있다."
+                android:textSize="22dp"
+                />
+
+            <Button
+                android:id="@+id/button91"
+                android:layout_width="160dp"
+                android:layout_height="62dp"
+                android:layout_marginVertical="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="완료 및 결과 확인"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

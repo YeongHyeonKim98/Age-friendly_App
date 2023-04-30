@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".button3">
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:gravity="center"
+                android:text="치매 진단 테스트"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="최근에 일어난 일을 기억하는 것이 어렵다."
+                android:layout_marginVertical="30dp"
+                android:textSize="25dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="이전에 비해 물건을 자주 잃어버린다."
+                android:textSize="25dp"
+
+                />
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="집 근처에서 길을 잃은 적이 있다."
+                android:layout_marginVertical="30dp"
+                android:textSize="25dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="가스불이나 전깃불을 끄는 것을 깜빡한다."
+                android:textSize="22dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="자주 사용하는 전화번호를 기억하지 못한다."
+                android:layout_marginVertical="30dp"
+                android:textSize="22dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="잘 다니던 장소에서 길을 잃는다."
+                android:textSize="22dp"
+                />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="160dp"
+                android:layout_height="62dp"
+                android:layout_marginVertical="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="완료 및 결과 확인"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
